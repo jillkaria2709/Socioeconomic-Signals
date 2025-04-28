@@ -3,16 +3,12 @@
 ## Project Overview
 This project explores how economic conditions—specifically income, inflation, and personal expenditure—relate to violent crime rates across U.S. states from 2012 to 2022. Using Python, we collected, cleaned, merged, and analyzed both structured (CSV) and semi-structured (JSON) data to derive insights through statistical analysis and dynamic visualizations.
 
-This project was completed as part of **IST652 - Scripting for Data Analysis**.
-
----
+This project was completed as part of **IST652 - Scripting for Data Analysis**
 
 ## Team
 - **Jill Karia** 
 - **Shivani Pandeti** 
 - **Reeya Tapan Patra** 
-
----
 
 ## Data Sources
 - **Personal Income Data** ([BEA](https://apps.bea.gov/regional/downloadzip.ht))  
@@ -24,16 +20,12 @@ This project was completed as part of **IST652 - Scripting for Data Analysis**.
 - **Violent Crime Data** ([FBI Crime Data Explorer API](https://catalog.data.gov/dataset?tags=crime))  
   *Format:* JSON (via REST API)
 
----
-
 ## Preprocessing Summary
 - Cleaned and reshaped all datasets into a **State | Year** format.
 - Filtered necessary indicators (GDP, Income, RPPS, Unemployment, Crime rates).
 - Adjusted expenditures for inflation using RPPS indices.
 - Merged datasets based on State and Year.
 - Final dataset: ~561 records covering all 50 states + D.C. across 11 years.
-
----
 
 ## Research Questions
 1. How do state-level income and inflation trends correlate with changes in overall consumer expenditure over the past decade?
@@ -43,7 +35,6 @@ This project was completed as part of **IST652 - Scripting for Data Analysis**.
 5. How does spending behavior differ between high-income and low-income groups when adjusted for inflation?
 6. How does the volatility of states' unemployment behavior look like over the years?
 
----
 
 ## Methods and Tools
 - **Programming Language:** Python
@@ -55,7 +46,6 @@ This project was completed as part of **IST652 - Scripting for Data Analysis**.
   - Cluster Analysis (K-Means, PCA)
   - Interactive Visualizations (Line plots, Scatter plots, Choropleth maps, Animated charts)
 
----
 
 ## Key Outputs
 - Line plots showing income and expenditure trends.
@@ -65,7 +55,6 @@ This project was completed as part of **IST652 - Scripting for Data Analysis**.
 - Animated bar charts visualizing income vs. expenditure gaps.
 - Cluster visualizations of unemployment volatility.
 
----
 
 ## Conclusion
 Our project highlighted key economic and social patterns across U.S. states, showing:
@@ -76,7 +65,6 @@ Our project highlighted key economic and social patterns across U.S. states, sho
 
 These findings provide a foundation for further studies on economic resilience and public policy planning.
 
----
 
 ## How to Run
 1. Install Python libraries:
@@ -87,7 +75,6 @@ pip install pandas numpy plotly seaborn scikit-learn requests
 3. Run the scripts sequentially to preprocess, merge, analyze, and visualize the data.
 4. View saved outputs (interactive HTML files for dynamic plots).
 
----
 
 ## Acknowledgments
 - U.S. Bureau of Economic Analysis (BEA)
