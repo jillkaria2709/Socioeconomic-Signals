@@ -8,9 +8,9 @@ This project was completed as part of **IST652 - Scripting for Data Analysis**.
 ---
 
 ## Team
-- **Shivani Pandeti** (Team Lead, Technical Contributor)
-- **Jill Karia** (Research Coordinator, Technical Contributor)
-- **Reeya Tapan Patra** (Note-taker, Presentation Organizer, Technical Contributor)
+- **Shivani Pandeti** 
+- **Jill Karia** 
+- **Reeya Tapan Patra** 
 
 ---
 
