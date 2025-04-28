@@ -8,8 +8,8 @@ This project was completed as part of **IST652 - Scripting for Data Analysis**.
 ---
 
 ## Team
-- **Shivani Pandeti** 
 - **Jill Karia** 
+- **Shivani Pandeti** 
 - **Reeya Tapan Patra** 
 
 ---
